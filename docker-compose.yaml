@@ -2,9 +2,9 @@ services:
     portfolio:
         image: node:lts-bullseye
         command: /bin/bash run.sh
-        working_dir: /portfolio
+        working_dir: /html5up-massively
         volumes:
-            - ./pmahar.github.io:/portfolio
+            - ./pmahar.github.io:/html5up-massively
         ports:
             - "3000:3000"
         environment:
